@@ -1,0 +1,11 @@
+[2019-04-27 15:36:00] @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+[2019-04-27 15:36:00] choco upgrade chocolatey
+[2019-04-27 15:36:00] choco install -y nodejs.install python2 jdk8
+[2019-04-27 15:36:00] npm install -g react-native-cli
+[2019-04-27 15:36:00] https://developer.android.com/studio/index.html (install android studio with sdk, avd get version)
+[2019-04-27 15:36:00] create path ANDROID_HOME => D:\android-sdk-windows
+[2019-04-27 15:36:00] add path D:\android-sdk-windows\platform-tools
+[2019-04-27 15:36:00] react-native init AwesomeProject (D:\web\android\AwesomeProject)
+[2019-04-27 15:36:00] react-native run-android
+[2019-04-27 15:36:00] choco install yarn (optional)
+[2019-04-27 15:36:00] yarn add react-native (optional) (D:\web\reactnative-research)
