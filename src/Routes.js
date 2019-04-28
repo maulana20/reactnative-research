@@ -6,6 +6,11 @@ import Signup from './pages/Signup';
 import Hello from './demo/Hello';
 import Bananas from './demo/Bananas';
 import LotsOfStyles from './demo/LotsOfStyles';
+import FixedDimensionsBasics from './demo/FixedDimensionsBasics';
+import FixedDimensionsBasics2 from './demo/FixedDimensionsBasics2';
+import FixedDirectionBasics from './demo/FixedDirectionBasics';
+import JustifyContentBasics from './demo/JustifyContentBasics';
+import AlignItemsBasics from './demo/AlignItemsBasics';
 
 export default class Routes extends Component<{}> {
 	render() {
@@ -16,7 +21,12 @@ export default class Routes extends Component<{}> {
 					<Scene key="signup" component={Signup} title="Register"/>
 					<Scene key="hello" component={Hello} title="Hello"/>
 					<Scene key="bananas" component={Bananas} title="Bananas"/>
-					<Scene key="lotofstyles" component={LotsOfStyles} title="LotsOfStyles" initial={true}/>
+					<Scene key="lotofstyles" component={LotsOfStyles} title="LotsOfStyles"/>
+					<Scene key="fixeddimensionsbasics" component={FixedDimensionsBasics} title="FixedDimensionsBasics"/>
+					<Scene key="fixeddimensionsbasics2" component={FixedDimensionsBasics2} title="FixedDimensionsBasics2"/>
+					<Scene key="fixeddirectionbasics" component={FixedDirectionBasics} title="FixedDirectionBasics"/>
+					<Scene key="jusctifycontentbasics" component={JustifyContentBasics} title="JustifyContentBasics"/>
+					<Scene key="alignitemsbasics" component={AlignItemsBasics} title="AlignItemsBasics" initial={true}/>
 				</Stack>
 			</Router>
 		)
