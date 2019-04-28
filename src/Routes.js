@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Hello from './demo/Hello';
 import Bananas from './demo/Bananas';
+import LotsOfStyles from './demo/LotsOfStyles';
 
 export default class Routes extends Component<{}> {
 	render() {
@@ -14,7 +15,8 @@ export default class Routes extends Component<{}> {
 					<Scene key="login" component={Login} title="Login"/>
 					<Scene key="signup" component={Signup} title="Register"/>
 					<Scene key="hello" component={Hello} title="Hello"/>
-					<Scene key="bananas" component={Bananas} title="Bananas" initial={true}/>
+					<Scene key="bananas" component={Bananas} title="Bananas"/>
+					<Scene key="lotofstyles" component={LotsOfStyles} title="LotsOfStyles" initial={true}/>
 				</Stack>
 			</Router>
 		)
