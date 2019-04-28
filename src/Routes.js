@@ -11,6 +11,9 @@ import FixedDimensionsBasics2 from './demo/FixedDimensionsBasics2';
 import FixedDirectionBasics from './demo/FixedDirectionBasics';
 import JustifyContentBasics from './demo/JustifyContentBasics';
 import AlignItemsBasics from './demo/AlignItemsBasics';
+import PizzaTranslator from './demo/PizzaTranslator';
+import ButtonBasics from './demo/ButtonBasics';
+import Touchables from './demo/Touchables';
 
 export default class Routes extends Component<{}> {
 	render() {
@@ -26,7 +29,10 @@ export default class Routes extends Component<{}> {
 					<Scene key="fixeddimensionsbasics2" component={FixedDimensionsBasics2} title="FixedDimensionsBasics2"/>
 					<Scene key="fixeddirectionbasics" component={FixedDirectionBasics} title="FixedDirectionBasics"/>
 					<Scene key="jusctifycontentbasics" component={JustifyContentBasics} title="JustifyContentBasics"/>
-					<Scene key="alignitemsbasics" component={AlignItemsBasics} title="AlignItemsBasics" initial={true}/>
+					<Scene key="alignitemsbasics" component={AlignItemsBasics} title="AlignItemsBasics"/>
+					<Scene key="pizzatranslator" component={PizzaTranslator} title="PizzaTranslator"/>
+					<Scene key="buttonbasics" component={ButtonBasics} title="ButtonBasics"/>
+					<Scene key="touchables" component={Touchables} title="Touchables" initial={true}/>
 				</Stack>
 			</Router>
 		)
