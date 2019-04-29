@@ -14,6 +14,10 @@ import AlignItemsBasics from './demo/AlignItemsBasics';
 import PizzaTranslator from './demo/PizzaTranslator';
 import ButtonBasics from './demo/ButtonBasics';
 import Touchables from './demo/Touchables';
+import Home from './demo/Home';
+import IScrolledDownAndWhatHappenedNextShockedMe from './demo/IScrolledDownAndWhatHappenedNextShockedMe';
+import FlatListBasics from './demo/FlatListBasics';
+import SectionListBasics from './demo/SectionListBasics';
 
 export default class Routes extends Component<{}> {
 	render() {
@@ -32,7 +36,11 @@ export default class Routes extends Component<{}> {
 					<Scene key="alignitemsbasics" component={AlignItemsBasics} title="AlignItemsBasics"/>
 					<Scene key="pizzatranslator" component={PizzaTranslator} title="PizzaTranslator"/>
 					<Scene key="buttonbasics" component={ButtonBasics} title="ButtonBasics"/>
-					<Scene key="touchables" component={Touchables} title="Touchables" initial={true}/>
+					<Scene key="touchables" component={Touchables} title="Touchables"/>
+					<Scene key="home" component={Home} title="Home"/>
+					<Scene key="iscrolleddownandwhathappenednextshockedme" component={IScrolledDownAndWhatHappenedNextShockedMe} title="IScrolledDownAndWhatHappenedNextShockedMe"/>
+					<Scene key="flatlistbasics" component={FlatListBasics} title="FlatListBasics"/>
+					<Scene key="sectionlistbasics" component={SectionListBasics} title="SectionListBasics" initial={true}/>
 				</Stack>
 			</Router>
 		)
