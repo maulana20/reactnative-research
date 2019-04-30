@@ -18,6 +18,7 @@ import Home from './demo/Home';
 import IScrolledDownAndWhatHappenedNextShockedMe from './demo/IScrolledDownAndWhatHappenedNextShockedMe';
 import FlatListBasics from './demo/FlatListBasics';
 import SectionListBasics from './demo/SectionListBasics';
+import FetchExample from './demo/FetchExample';
 
 export default class Routes extends Component<{}> {
 	render() {
@@ -40,7 +41,8 @@ export default class Routes extends Component<{}> {
 					<Scene key="home" component={Home} title="Home"/>
 					<Scene key="iscrolleddownandwhathappenednextshockedme" component={IScrolledDownAndWhatHappenedNextShockedMe} title="IScrolledDownAndWhatHappenedNextShockedMe"/>
 					<Scene key="flatlistbasics" component={FlatListBasics} title="FlatListBasics"/>
-					<Scene key="sectionlistbasics" component={SectionListBasics} title="SectionListBasics" initial={true}/>
+					<Scene key="sectionlistbasics" component={SectionListBasics} title="SectionListBasics"/>
+					<Scene key="fetchexample" component={FetchExample} title="FetchExample" initial={true}/>
 				</Stack>
 			</Router>
 		)
