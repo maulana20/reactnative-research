@@ -9,3 +9,7 @@
 [2019-04-27 15:36:00] react-native run-android
 [2019-04-27 15:36:00] choco install yarn (optional)
 [2019-04-27 15:36:00] yarn add react-native (optional) (D:\web\reactnative-research)
+[2019-05-01 16:52:00] npm install (optional) (D:\web\reactnative-research)
+[2019-05-01 16:52:00] npm install --save react-navigation
+[2019-05-01 16:52:00] npm install --save native-base
+[2019-05-01 16:52:00] npm install --save react-native-gesture-handler
