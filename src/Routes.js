@@ -35,7 +35,7 @@ export default class Routes extends Component<{}> {
 					
 					<Scene key="hello" component={Hello} title="Hello"/>
 					<Scene key="bananas" component={Bananas} title="Bananas"/>
-					<Scene key="lotsofgreetings" component={LotsOfGreetings} title="LotsOfGreetings" initial={true}/>
+					<Scene key="lotsofgreetings" component={LotsOfGreetings} title="LotsOfGreetings"/>
 					<Scene key="blinkapp" component={BlinkApp} title="BlinkApp"/>
 					<Scene key="lotofstyles" component={LotsOfStyles} title="LotsOfStyles"/>
 					<Scene key="fixeddimensionsbasics" component={FixedDimensionsBasics} title="FixedDimensionsBasics"/>
@@ -52,7 +52,7 @@ export default class Routes extends Component<{}> {
 					<Scene key="sectionlistbasics" component={SectionListBasics} title="SectionListBasics"/>
 					<Scene key="fetchexample" component={FetchExample} title="FetchExample"/>
 					
-					<Scene key="popup" component={Popup} title="Popup"/>
+					<Scene key="popup" component={Popup} title="Popup" initial={true}/>
 				</Stack>
 			</Router>
 		)
