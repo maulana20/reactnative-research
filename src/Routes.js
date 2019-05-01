@@ -6,6 +6,8 @@ import Signup from './pages/Signup';
 
 import Hello from './demo/Hello';
 import Bananas from './demo/Bananas';
+import LotsOfGreetings from './demo/LotsOfGreetings';
+import BlinkApp from './demo/BlinkApp';
 import LotsOfStyles from './demo/LotsOfStyles';
 import FixedDimensionsBasics from './demo/FixedDimensionsBasics';
 import FixedDimensionsBasics2 from './demo/FixedDimensionsBasics2';
@@ -33,6 +35,8 @@ export default class Routes extends Component<{}> {
 					
 					<Scene key="hello" component={Hello} title="Hello"/>
 					<Scene key="bananas" component={Bananas} title="Bananas"/>
+					<Scene key="lotsofgreetings" component={LotsOfGreetings} title="LotsOfGreetings" initial={true}/>
+					<Scene key="blinkapp" component={BlinkApp} title="BlinkApp"/>
 					<Scene key="lotofstyles" component={LotsOfStyles} title="LotsOfStyles"/>
 					<Scene key="fixeddimensionsbasics" component={FixedDimensionsBasics} title="FixedDimensionsBasics"/>
 					<Scene key="fixeddimensionsbasics2" component={FixedDimensionsBasics2} title="FixedDimensionsBasics2"/>
@@ -48,7 +52,7 @@ export default class Routes extends Component<{}> {
 					<Scene key="sectionlistbasics" component={SectionListBasics} title="SectionListBasics"/>
 					<Scene key="fetchexample" component={FetchExample} title="FetchExample"/>
 					
-					<Scene key="popup" component={Popup} title="Popup" initial={true}/>
+					<Scene key="popup" component={Popup} title="Popup"/>
 				</Stack>
 			</Router>
 		)

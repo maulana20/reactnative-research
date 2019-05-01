@@ -4,18 +4,13 @@ import { AppRegistry, Text, View } from 'react-native';
 class Blink extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { isShowingText: true };
-		// Toggle the state every second
+		this.state = { isShow: true };
 		setInterval(() => (
-		  this.setState(previousState => (
-			{ isShowingText: !previousState.isShowingText }
-		  ))
+			this.setState(blink => ({ isShow: !blink.isShow }))
 		), 1000);
 	}
 	render() {
-		if (!this.state.isShowingText) {
-		  return null;
-		}
+		if (!this.state.isShow) return null;
 		return (
 			<Text>{this.props.text}</Text>
 		);
