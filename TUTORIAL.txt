@@ -13,3 +13,4 @@
 [2019-05-01 16:52:00] npm install --save react-navigation
 [2019-05-01 16:52:00] npm install --save native-base
 [2019-05-01 16:52:00] npm install --save react-native-gesture-handler
+[2019-05-02 08:14:00] react-native start --reset-cache
